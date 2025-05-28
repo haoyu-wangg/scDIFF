@@ -1,6 +1,6 @@
 
 
-# scDIFF: Single-Cell Data Integration and Feature Fusion
+# scDIFF: Automatic Cell Type Annotation of scATAC-seq Data Using a Diffusion-Based Transformer Integrating Histone Modification Information
 
 ## Project Overview
 **scDIFF**  is a novel method for supervised cell type annotation in single-cell ATAC-seq (scATAC-seq) data, addressing challenges of high dimensionality and sparsity. By integrating genomic sequences and histone modification information around accessibility peaks, scDIFF generates optimized cell embeddings and performs annotation through a diffusion-based Transformer network. It consistently outperforms existing methods on diverse scATAC-seq datasets, providing functional insights through expression and motif enrichment analyses.
