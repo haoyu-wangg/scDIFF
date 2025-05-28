@@ -1,0 +1,5 @@
+INFO(20250527 20:47:09) [train.py:116]:
+##time: Tue May 27 20:47:09 2025
+##cwd: /home/daozhang/scDIFF/scDIFF/CACNN
+##cmd: train.py -i ../../data/BoneMarrow/BoneMarrowA_BoneMarrowB.h5ad -g mm9 -o ../../output/BoneMarrowA_BoneMarrowB --tissue BoneMarrow --bw_list H3k4me1_mm9.bigWig H3k4me3_mm9.bigWig H3k27ac_mm9.bigWig --epifeature_dim 3
+##args: Namespace(data='../../data/BoneMarrow/BoneMarrowA_BoneMarrowB.h5ad', z=64, g='mm9', lr=0.01, batch_size=128, num_workers=12, seq_len=1344, outdir='../../output/BoneMarrowA_BoneMarrowB', w=False, seed=2020, max_epoch=300, device=0, use_reg_cell=False, alpha=0.0, epifeature_dim=3, root_path='../../data/', tissue='BoneMarrow', bw_list=['H3k4me1_mm9.bigWig', 'H3k4me3_mm9.bigWig', 'H3k27ac_mm9.bigWig'])

@@ -1,0 +1,35 @@
+# Core Python libraries
+python==3.9.20
+
+# Data handling and analysis
+pandas==2.2.3
+numpy==2.0.2
+scipy==1.13.1
+anndata==0.10.9
+scanpy==1.10.3
+h5py==3.12.1
+
+# Machine learning and deep learning
+torch==2.5.1
+torch-geometric==2.6.1
+torchvision==0.20.1
+scikit-learn==1.6.0
+umap-learn==0.5.7
+statsmodels==0.14.4
+
+# Epigenomic and file handling
+episcanpy==0.4.0
+pybigwig==0.3.23
+pysam==0.22.1
+bamnostic==1.1.10
+
+# Visualization
+matplotlib==3.9.3
+seaborn==0.13.2
+
+# Utility libraries
+joblib==1.4.2
+tqdm==4.67.1
+pyyaml==6.0.2
+filelock==3.16.1
+packaging==24.2

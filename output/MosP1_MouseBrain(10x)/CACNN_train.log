@@ -1,0 +1,5 @@
+INFO(20250528 10:30:07) [train.py:116]:
+##time: Wed May 28 10:30:07 2025
+##cwd: /home/daozhang/scDIFF/scDIFF/CACNN
+##cmd: train.py -i ../../data/Cortex/MosP1_MouseBrain(10x).h5ad -g mm10 -o ../../output/MosP1_MouseBrain(10x) --tissue Cortex --bw_list H3k4me1_mm10.bigWig H3k4me3_mm10.bigWig H3k27ac_mm10.bigWig --epifeature_dim 3 --use_reg_cell --alpha 10e-5
+##args: Namespace(data='../../data/Cortex/MosP1_MouseBrain(10x).h5ad', z=64, g='mm10', lr=0.01, batch_size=128, num_workers=12, seq_len=1344, outdir='../../output/MosP1_MouseBrain(10x)', w=False, seed=2020, max_epoch=300, device=0, use_reg_cell=True, alpha=0.0001, epifeature_dim=3, root_path='../../data/', tissue='Cortex', bw_list=['H3k4me1_mm10.bigWig', 'H3k4me3_mm10.bigWig', 'H3k27ac_mm10.bigWig'])
