@@ -3,7 +3,7 @@
 # scDIFF: Automatic Cell Type Annotation of scATAC-seq Data Using a Diffusion-Based Transformer Integrating Histone Modification Information
 
 ## Project Overview
-**scDIFF**  is a novel method for supervised cell type annotation in single-cell ATAC-seq (scATAC-seq) data, addressing challenges of high dimensionality and sparsity. By integrating genomic sequences and histone modification information around accessibility peaks, scDIFF generates optimized cell embeddings and performs annotation through a diffusion-based Transformer network. It consistently outperforms existing methods on diverse scATAC-seq datasets, providing functional insights through expression and motif enrichment analyses.
+We present **scDIFF**, a diffusive transformer-based method that integrates bulk-level genomic and epigenomic information with scATAC-seq data to annotate cell types without creating artificial gene expression matrix. Our scDIFF performed constantly better than state-of-the-art methods on all 45 pairs of reference and query datasets across different sequencing platforms. In addition, scDIFF can identify cell-type-specific peaks from the scATAC-seq data, which provides insights into gene regulation at single-cell level.
 
 
 ## Project Directory Structure
@@ -83,7 +83,7 @@ In order to run scDIFF, we need to first create an anndata object from the raw d
 
 For the sequence information, we use the corresponding reference genome files provided by the UCSC Genome Browser as input. To set this up, create a folder named genome in the ./scDIFF/CACNN/ directory and download the reference genome file (e.g., mm9.fa.h5) into this folder. This file will be used to extract sequence features for the peaks.
 
-To obtain tissue-specific histone modification information, histone ChIP-seq peak files (in BED format) are aligned to the genome using LiftOver, with '1' indicating the presence and '0' indicating the absence of modification signals for each corresponding protein. These processed histone modification signals are stored in .bigWig format.
+To obtain tissue-specific histone modification information, histone ChIP-seq peak files (in BED format) are aligned to the genome using LiftOver, with '1' indicating the presence and '0' indicating the absence of modification signals for each corresponding protein. . In cases where multi-source reference sets derive from different tissues, we consider two strategies for handling tissue-specific histone modifications: Union strategy: if a nucleotide locates within any tissue's ChIP-seq peak, it is marked as '1', otherwise marked as '0'; Intersection strategy: if a nucleotide locates within all tissues' ChIP-seq peaks, it is marked as '1', otherwise marked as '0'. All ChIP-seq peaks are directly downloaded from the ensemble database.These processed histone modification signals are stored in .bigWig format.
 
 For optimal performance, we recommend filtering out peaks that are accessible in less than 1% of cells. Processed data should be organized in the data directory according to the tissue type, as described in the directory structure above.
 
