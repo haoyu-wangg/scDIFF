@@ -18,17 +18,13 @@ The directory structure of the project is as follows:
 │   │   ├── H3k4me1_mm9.bigWig              # Epigenetic feature (ChIP-seq data)
 │   │   ├── H3k4me3_mm9.bigWig
 │   │   ├── H3k27ac_mm9.bigWig
-│   ├── Cortex/                 # Example dataset for Cortex
+│   └── Cortex/                 # Example dataset for Cortex
 │       ├── MosP1_MouseBrain(10x).h5ad      # Single-cell data in h5ad format
 │       ├── H3k4me1_mm10.bigWig             # Epigenetic feature (ChIP-seq data)
 │       ├── H3k4me3_mm10.bigWig
-│       ├── H3k27ac_mm10.bigWig
+│       └── H3k27ac_mm10.bigWig
 │
 ├── dataPreprocessing/          # Data preprocessing scripts and utilities
-│   ├── Temp/                   
-│   │   ├── BoneMarrowA.h5ad
-│   │   ├── BoneMarrowA_BoneMarrowB.h5ad
-│   │   └── BoneMarrowB.h5ad
 │   ├── create_h5ad.ipynb       # Create h5ad files
 │   ├── create_pairs.ipynb      # Creating dataset pairs
 │   ├── intersect_union.sh      # Shell script for BED intersection and union operations
@@ -46,7 +42,7 @@ The directory structure of the project is as follows:
 │   └── evaluateCrossMethods.ipynb # Evaluation 
 │
 ├── figures/                    # Directory for architecture and visualization outputs
-│   ├── model.svg               # Example model architecture
+│   └── model.svg               # Example model architecture
 │
 ├── output/                     # Example output directory  
 │   ├── BoneMarrowA_BoneMarrowB/
@@ -59,19 +55,19 @@ The directory structure of the project is as follows:
 │   │   ├── BoneMarrowA_BoneMarrowB_ref0_query1.csv # Reference-query mapping results
 │   │   ├── edge.txt                 # Edge information
 │   │   └── model.pkl                # Pickled model file
-│   ├── MosP1_MouseBrain(10x)/       # Another example output (similar structure)
-│   │   ├── CACNN_best_model.pt      # Best model weights
-│   │   ├── CACNN_output.h5ad        # CACNN output data
-│   │   ├── CACNN_train.log          # Training logs
-│   │   ├── MosP1_MouseBrain(10x)_ref0_query1.csv # Reference-query mapping results
-│   │   ├── args.txt                 # Configuration and runtime arguments
-│   │   ├── edge.txt                 # Edge information
-│   │   ├── embedding.h5ad           # Embedding results
-│   │   ├── model.pkl                # Pickled model file
-│   │   └── result.csv               # Final results in tabular format
+│   └── MosP1_MouseBrain(10x)/       # Another example output (similar structure)
+│       ├── CACNN_best_model.pt      # Best model weights
+│       ├── CACNN_output.h5ad        # CACNN output data
+│       ├── CACNN_train.log          # Training logs
+│       ├── MosP1_MouseBrain(10x)_ref0_query1.csv # Reference-query mapping results
+│       ├── args.txt                 # Configuration and runtime arguments
+│       ├── edge.txt                 # Edge information
+│       ├── embedding.h5ad           # Embedding results
+│       ├── model.pkl                # Pickled model file
+│       └── result.csv               # Final results in tabular format
 │
 ├── scDIFF/                     # Core code for the project
-│   ├── CACNN/                  # CACNN implementation
+│   ├── CACNN/                  # 
 │   │   ├── genome/             # Not included in the repository (structure described below)
 │   │   │   ├── mm9.fa.h5       # Reference genome for mm9 (mouse genome version 9)
 │   │   │   └── mm10.fa.h5      # Reference genome for mm10 (mouse genome version 10)
