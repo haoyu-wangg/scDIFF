@@ -1,9 +1,9 @@
 
 
-# scDIFF: Automatic Cell Type Annotation of scATAC-seq Data Using a Diffusion-Based Transformer Integrating Histone Modification Information
+# scDIFF: Automatic cell type annotation using scATAC-seq data by incorporating bulk-level genomic and epigenomic information in diffusive transformers 
 
 ## Project Overview
-We present **scDIFF**, a diffusive transformer-based method that integrates bulk-level genomic and epigenomic information with scATAC-seq data to annotate cell types without creating artificial gene expression matrix. Our scDIFF performed constantly better than state-of-the-art methods on all 45 pairs of reference and query datasets across different sequencing platforms. In addition, scDIFF can identify cell-type-specific peaks from the scATAC-seq data, which provides insights into gene regulation at single-cell level.
+We proposed **scDIFF**, which integrates bulk-level genomic and epigenomic information in a diffusive transformer to annotate cell types from scATATC-seq data. The performance of scDIFF is comparable or better than state-of-the-art methods in all comparisons. Our scDIFF can eliminate batch effects between different datasets, which enabled it to integrate datasets from different sequencing platforms together. With optimized epigenomic profiles, scDIFF present superior annotation performances, indicating it has a great potential to facilitate analysis of scATAC-seq data. These results demonstrate that scDIFF provides both accurate cell type annotations and meaningful insights into the gene regulatory mechanisms at single cell level.
 
 
 
@@ -33,63 +33,63 @@ The directory structure of the project is as follows:
 │   └── mm10bed_to_mm9bigwig.sh  # From mm10 BED to mm9 BigWig format
 │
 ├── drawFigures/                # Figure generation and visualization scripts
-│   ├── Bar.ipynb               # Bar chart 
-│   ├── Coverage_Plot.R         # Coverage plotting
-│   ├── Line_chart.ipynb        # Line chart 
-│   ├── Signac.R                # Signac analysis
-│   ├── comparison_plot.ipynb   # Comparison plot visualization
-│   ├── confusion_matrix.ipynb  # Confusion matrix visualization 
-│   └── evaluateCrossMethods.ipynb # Evaluation 
+│   ├── Bar.ipynb               
+│   ├── Coverage_Plot.R         
+│   ├── Line_chart.ipynb        
+│   ├── Signac.R                
+│   ├── comparison_plot.ipynb   
+│   ├── confusion_matrix.ipynb  
+│   └── evaluateCrossMethods.ipynb 
 │
-├── figures/                    # Directory for architecture and visualization outputs
-│   └── model.svg               # Example model architecture
+├── figures/                    
+│   └── model.svg               
 │
 ├── output/                     # Example output directory  
 │   ├── BoneMarrowA_BoneMarrowB/
-│   │   ├── args.txt                 # Configuration and runtime arguments
+│   │   ├── args.txt                 
 │   │   ├── CACNN_best_model.pt      # Best model weights
 │   │   ├── CACNN_output.h5ad        # CACNN_output data
-│   │   ├── CACNN_train.log          # Training logs
-│   │   ├── embedding.h5ad           # Embedding results
-│   │   ├── result.csv               # Final results in tabular format
-│   │   ├── BoneMarrowA_BoneMarrowB_ref0_query1.csv # Reference-query mapping results
-│   │   ├── edge.txt                 # Edge information
-│   │   └── model.pkl                # Pickled model file
-│   └── MosP1_MouseBrain(10x)/       # Another example output (similar structure)
-│       ├── CACNN_best_model.pt      # Best model weights
-│       ├── CACNN_output.h5ad        # CACNN output data
-│       ├── CACNN_train.log          # Training logs
-│       ├── MosP1_MouseBrain(10x)_ref0_query1.csv # Reference-query mapping results
-│       ├── args.txt                 # Configuration and runtime arguments
-│       ├── edge.txt                 # Edge information
-│       ├── embedding.h5ad           # Embedding results
-│       ├── model.pkl                # Pickled model file
-│       └── result.csv               # Final results in tabular format
+│   │   ├── CACNN_train.log          
+│   │   ├── embedding.h5ad           # Embedding 
+│   │   ├── result.csv               # performance
+│   │   ├── BoneMarrowA_BoneMarrowB_ref0_query1.csv # Reference-query labels
+│   │   ├── edge.txt                 
+│   │   └── model.pkl                
+│   └── MosP1_MouseBrain(10x)/       
+│       ├── CACNN_best_model.pt      
+│       ├── CACNN_output.h5ad        
+│       ├── CACNN_train.log          
+│       ├── MosP1_MouseBrain(10x)_ref0_query1.csv 
+│       ├── args.txt                 
+│       ├── edge.txt                 
+│       ├── embedding.h5ad           
+│       ├── model.pkl                
+│       └── result.csv               
 │
 ├── scDIFF/                     # Core code for the project
-│   ├── CACNN/                  # 
+│   ├── CACNN/                   
 │   │   ├── genome/             # Not included in the repository (structure described below)
-│   │   │   ├── mm9.fa.h5       # Reference genome for mm9 (mouse genome version 9)
-│   │   │   └── mm10.fa.h5      # Reference genome for mm10 (mouse genome version 10)
-│   │   ├── dataset.py          # Data loading and preprocessing
+│   │   │   ├── mm9.fa.h5       
+│   │   │   └── mm10.fa.h5      
+│   │   ├── dataset.py          
 │   │   ├── model.py            # CACNN model architecture
-│   │   ├── train.py            # Training script for CACNN
-│   │   ├── utils.py            # Utility functions
-│   │   └── ECA_layer.py        # Efficient Channel Attention (ECA) mechanism
-│   └── DIFFormer/              # DIFFomer implementation
-│       ├── data_utils.py       # Data handling and preprocessing
-│       ├── dataset.py          # Dataset preparation for DIFFomer
+│   │   ├── train.py            
+│   │   ├── utils.py            
+│   │   └── ECA_layer.py        
+│   └── DIFFormer/              
+│       ├── data_utils.py       
+│       ├── dataset.py          
 │       ├── model.py            # DIFFomer model architecture
-│       ├── train.py            # Training script for DIFFomer
-│       ├── eval.py             # Evaluation script for DIFFomer
-│       ├── metrics.py          # Evaluation metrics
-│       ├── logger.py           # Logging utilities
-│       └── parse.py            # Argument parser for training and evaluation
+│       ├── train.py            
+│       ├── eval.py             
+│       ├── metrics.py          
+│       ├── logger.py           
+│       └── parse.py            
 │
 ├── .gitignore                  
-├── BoneMarrowA_BoneMarrowB.ipynb  # Example Jupyter Notebook for Bone Marrow analysis
-├── MosP1_MouseBrain(10x).ipynb   # Example Jupyter Notebook for Cortex analysis
-├── Readme.md                   # Project documentation
+├── BoneMarrowA_BoneMarrowB.ipynb  
+├── MosP1_MouseBrain(10x).ipynb   
+├── Readme.md                   
 └── requirements.txt            
 ```
 
@@ -165,7 +165,55 @@ Running the above command will generate three output files in the output path:
 4. Create a folder genome in the ./scDIFF/CACNN/ directory and download mm10.fa.h5.
 5. For more detailed information, run the tutorial [MosP1_Cerebellum.ipynb](./MosP1_Cerebellum.ipynb) for how to do data preprocessing and training.
 
+# Datasets
+### scATAC-seq Datasets Summary
 
+| Dataset | Technology | Reference Genome | GEO Accession |
+|---------|------------|------------------|---------------|
+| BoneMarrowA/B | sciATAC-seq | mm9 | GSE111586 |
+| LungA/B | sciATAC-seq | mm9 | GSE111586 |
+| LargeIntestineA/B | sciATAC-seq | mm9 | GSE111586 |
+| WholeBrainA/B | sciATAC-seq | mm9 | GSE111586 |
+| SmallIntestine | sciATAC-seq | mm9 | GSE111586 |
+| Cerebellum | sciATAC-seq | mm9 | GSE111586 |
+| PreFrontalCortex | sciATAC-seq | mm9 | GSE111586 |
+| MosA1/A2 | snATAC-seq | GRCm38 | GSE126724 |
+| MosM1/M2 | snATAC-seq | GRCm38 | GSE126724 |
+| MosP1/P2 | snATAC-seq | GRCm38 | GSE126724 |
+| MouseBrain(10x) | 10x sequencing | mm10 | https://support.10xgenomics.com/single-cell-atac/datasets/1.1.0/atac_v1_adult_brain_fresh_5k |
+| NormalCortex | 10x sequencing | mm10 | https://www.10xgenomics.com/datasets/fresh-cortex-from-adult-mouse-brain-p-50-1-standard-1-2-0 |
+| KidneyA-E | snATAC-seq | hg38 | GSE185948 |
+
+### ChIP-seq Datasets Overview
+
+| Tissue | Type | Accession ID | Developmental Stage |
+|--------|------|--------------|-------------------|
+| Bone marrow | H3K4me3 | ENCFF366WUW | adult (2 months) |
+| Bone marrow | H3K4me1 | ENCFF675QTV | adult (2 months) |
+| Bone marrow | H3K27ac | ENCFF009GVZ | adult (2 months) |
+| Cerebellum | H3K4me3 | ENCFF026XUO | adult (2 months) |
+| Cerebellum | H3K4me1 | ENCFF934THC | adult (2 months) |
+| Cerebellum | H3K27ac | ENCFF763RNO | adult (2 months) |
+| Forebrain | H3K4me3 | ENCFF160SCR | postnatal (0 days) |
+| Forebrain | H3K4me1 | ENCFF937JHP | postnatal (0 days) |
+| Forebrain | H3K27ac | ENCFF442GIT | postnatal (0 days) |
+| Intestine | H3K4me3 | ENCFF609BZI | postnatal (0 days) |
+| Intestine | H3K4me1 | ENCFF523POG | postnatal (0 days) |
+| Intestine | H3K27ac | ENCFF182RQN | postnatal (0 days) |
+| Lung | H3K4me3 | ENCFF082TBM | postnatal (0 days) |
+| Lung | H3K4me1 | ENCFF453ZKR | postnatal (0 days) |
+| Lung | H3K27ac | ENCFF535ZRH | postnatal (0 days) |
+| Large intestine | H3K4me3 | ENCFF609BZI | postnatal (0 days) |
+| Large intestine | H3K4me1 | ENCFF523POG | postnatal (0 days) |
+| Large intestine | H3K27ac | ENCFF182RQN | postnatal (0 days) |
+| Cortex | H3K4me3 | ENCFF218SDV | adult (2 months) |
+| Cortex | H3K4me1 | ENCFF407TGJ | adult (2 months) |
+| Cortex | H3K27ac | ENCFF958PXM | adult (2 months) |
+| Kidney | H3K4me3 | ENCFF349XHZ | adult (50 years) |
+| Kidney | H3K4me1 | ENCFF955PYL | adult (50 years) |
+| Kidney | H3K27ac | ENCFF418XDA | adult (50 years) |
+
+**Note**: Accession ID refers to unique identifiers assigned by the ENCODE database for each dataset.
 # Figure Reproduction Instructions
 
 ## Main Figures
