@@ -227,6 +227,7 @@ Running the above command will generate three output files in the output path:
 - `mm10bed_to_mm9bigwig.sh`
 - `mm10bed_to_mm10bigwig.sh`
 
+Scripts were selected based on the genome version of the modification information used, with the generated BigWig files named according to modification information and then placed into the ./data/corresponding tissue directories.
 
 # Figure Reproduction Instructions
 
