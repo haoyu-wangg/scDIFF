@@ -214,6 +214,20 @@ Running the above command will generate three output files in the output path:
 | Kidney | H3K27ac | ENCFF418XDA | adult (50 years) |
 
 **Note**: Accession ID refers to unique identifiers assigned by the ENCODE database for each dataset.
+
+### Data pre-processing
+#### scATAC-seq was pre-processed using the following steps:
+- `create_h5ad.ipynb`
+- `Create_pairs.ipynb`, with the generated files then placed into the ./data/corresponding tissue directories
+
+####  ChIP-seq was pre-processed using the following steps:
+
+- `intersect_union.sh`
+- `mm10bed_to_hg19bed.sh`
+- `mm10bed_to_mm9bigwig.sh`
+- `mm10bed_to_mm10bigwig.sh`
+
+
 # Figure Reproduction Instructions
 
 ## Main Figures
