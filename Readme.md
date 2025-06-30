@@ -158,12 +158,12 @@ Running the above command will generate three output files in the output path:
 3. After downloading the datasets and processing them, place them in data/BoneMarrow.
 4. Create a folder genome in the ./scDIFF/CACNN/ directory and download mm9.fa.h5.
 5. For more detailed information, run the tutorial [BoneMarrowA_BoneMarrowB.ipynb](./BoneMarrowA_BoneMarrowB.ipynb) for how to do data preprocessing and training.
-### Tutorial 2: Cell annotations on datasets cross platforms (MosP1_Cerebellum)
+### Tutorial 2: Cell annotations on datasets cross platforms (MosP1_MouseBrain(10x))
 1. Install the required environment according to [Installation](#installation).
 2. Create a data folder in the same directory as the 'scDIFF' folder and create subfolder data/Cortex.
 3. After downloading the datasets and processing them, place them in data/Cortex.
 4. Create a folder genome in the ./scDIFF/CACNN/ directory and download mm10.fa.h5.
-5. For more detailed information, run the tutorial [MosP1_Cerebellum.ipynb](./MosP1_Cerebellum.ipynb) for how to do data preprocessing and training.
+5. For more detailed information, run the tutorial [MosP1_MouseBrain(10x).ipynb](./MosP1_MouseBrain(10x).ipynb) for how to do data preprocessing and training.
 
 # Datasets
 ### scATAC-seq Datasets Summary
