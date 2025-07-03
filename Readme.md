@@ -176,7 +176,7 @@ Running the above command will generate three output files in the output path:
 5. For more detailed information, run the tutorial [MosP1_MouseBrain(10x).ipynb](./MosP1_MouseBrain(10x).ipynb) for how to do data preprocessing and training.
 
 # Datasets
-### scATAC-seq Datasets Summary
+### scATAC-seq Datasets Overview
 
 | Dataset | Technology | Reference Genome | GEO Accession |
 |---------|------------|------------------|---------------|
