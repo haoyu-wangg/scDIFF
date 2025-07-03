@@ -1,0 +1,838 @@
+# SNPsea v1.0.4
+--snps             Red_blood_cell_count-Harst2012-45_SNPs.gwas
+--gene-matrix      GeneAtlas2004.gct.gz
+--gene-intervals   NCBIgenes2013.bed.gz
+--snp-intervals    TGP2011.bed.gz
+--null-snps        Lango2010.txt.gz
+--out              out
+--score            single
+--slop             10000
+--threads          4
+--null-snpsets     0
+--min-observations 100
+--max-iterations   10000000
+
+Mon Feb 24 12:39:11 2025 # Reading files ...
+Mon Feb 24 12:39:11 2025 # "Lango2010.txt.gz" has 56890 items.
+Mon Feb 24 12:39:44 2025 # "TGP2011.bed.gz" has 22518294 intervals.
+Mon Feb 24 12:39:44 2025 # "GeneAtlas2004.gct.gz" has 17581 rows, 79 columns.
+Mon Feb 24 12:39:44 2025 # Skipped loading 23556 gene intervals because they are absent from the --gene-matrix file.
+Mon Feb 24 12:39:44 2025 # 735 genes from the --gene-matrix file are absent from the --gene-intervals file.
+Mon Feb 24 12:39:44 2025 # done.
+Mon Feb 24 12:39:58 2025 # "Red_blood_cell_count-Harst2012-45_SNPs.gwas" has 45 items.
+Mon Feb 24 12:39:58 2025 # Overlapping SNP intervals with gene intervals ...
+Mon Feb 24 12:39:58 2025 # done. 0 SNPs not found. 7 SNPs overlap 0 genes.
+Mon Feb 24 12:39:58 2025 # Merged 0 SNPs into 0 loci.
+Mon Feb 24 12:39:58 2025 # Writing "out/snp_genes.txt" ...
+Mon Feb 24 12:39:58 2025 # done.
+Mon Feb 24 12:39:58 2025 # On each iteration, we will test 38 gene sets from these bins:
+Mon Feb 24 12:39:58 2025 #  16 gene sets with size     1 from a pool of size 22430
+Mon Feb 24 12:39:58 2025 #   4 gene sets with size     2 from a pool of size 4547
+Mon Feb 24 12:39:58 2025 #   4 gene sets with size     3 from a pool of size 2216
+Mon Feb 24 12:39:58 2025 #   3 gene sets with size     4 from a pool of size 1215
+Mon Feb 24 12:39:58 2025 #   3 gene sets with size     5 from a pool of size 836
+Mon Feb 24 12:39:58 2025 #   4 gene sets with size     6 from a pool of size 457
+Mon Feb 24 12:39:58 2025 #   4 gene sets with size >= 10 from a pool of size 762
+Mon Feb 24 12:39:58 2025 # We will compute up to 1e+07 iterations for each column with 4 threads.
+Mon Feb 24 12:39:58 2025 # Writing "out/snp_condition_scores.txt" ...
+Mon Feb 24 12:39:58 2025 # done.
+Mon Feb 24 12:39:58 2025 # Computing one column at a time ...
+..... .....  ..... .....  ..... .....  ..... .....  ..... .....  50
+..... .....  ..... .....  ..... ....
+Mon Feb 24 12:40:21 2025 # done.
+# SNPsea v1.0.4
+--snps             Red_blood_cell_count-Harst2012-45_SNPs.gwas
+--gene-matrix      GeneAtlas2004.gct.gz
+--gene-intervals   NCBIgenes2013.bed.gz
+--snp-intervals    TGP2011.bed.gz
+--null-snps        Lango2010.txt.gz
+--out              out
+--score            single
+--slop             10000
+--threads          4
+--null-snpsets     0
+--min-observations 100
+--max-iterations   10000000
+
+Sun Mar  2 14:44:36 2025 # Reading files ...
+Sun Mar  2 14:44:36 2025 # "Lango2010.txt.gz" has 56890 items.
+Sun Mar  2 14:44:57 2025 # "TGP2011.bed.gz" has 22518294 intervals.
+Sun Mar  2 14:44:57 2025 # "GeneAtlas2004.gct.gz" has 17581 rows, 79 columns.
+Sun Mar  2 14:44:58 2025 # Skipped loading 23556 gene intervals because they are absent from the --gene-matrix file.
+Sun Mar  2 14:44:58 2025 # 735 genes from the --gene-matrix file are absent from the --gene-intervals file.
+Sun Mar  2 14:44:58 2025 # done.
+Sun Mar  2 14:45:07 2025 # "Red_blood_cell_count-Harst2012-45_SNPs.gwas" has 45 items.
+Sun Mar  2 14:45:07 2025 # Overlapping SNP intervals with gene intervals ...
+Sun Mar  2 14:45:07 2025 # done. 0 SNPs not found. 7 SNPs overlap 0 genes.
+Sun Mar  2 14:45:07 2025 # Merged 0 SNPs into 0 loci.
+Sun Mar  2 14:45:07 2025 # Writing "out/snp_genes.txt" ...
+Sun Mar  2 14:45:07 2025 # done.
+Sun Mar  2 14:45:07 2025 # On each iteration, we will test 38 gene sets from these bins:
+Sun Mar  2 14:45:07 2025 #  16 gene sets with size     1 from a pool of size 22430
+Sun Mar  2 14:45:07 2025 #   4 gene sets with size     2 from a pool of size 4547
+Sun Mar  2 14:45:07 2025 #   4 gene sets with size     3 from a pool of size 2216
+Sun Mar  2 14:45:07 2025 #   3 gene sets with size     4 from a pool of size 1215
+Sun Mar  2 14:45:07 2025 #   3 gene sets with size     5 from a pool of size 836
+Sun Mar  2 14:45:07 2025 #   4 gene sets with size     6 from a pool of size 457
+Sun Mar  2 14:45:07 2025 #   4 gene sets with size >= 10 from a pool of size 762
+Sun Mar  2 14:45:07 2025 # We will compute up to 1e+07 iterations for each column with 4 threads.
+Sun Mar  2 14:45:07 2025 # Writing "out/snp_condition_scores.txt" ...
+Sun Mar  2 14:45:07 2025 # done.
+Sun Mar  2 14:45:07 2025 # Computing one column at a time ...
+..... .....  ..... .....  ..... .....  ..... .....  ..... .....  50
+..... .....  ..... .....  ..... ....
+Sun Mar  2 14:45:24 2025 # done.
+# SNPsea v1.0.4
+--snps             My.gwas
+--gene-matrix      GeneAtlas2004.gct.gz
+--gene-intervals   NCBIgenes2013.bed.gz
+--snp-intervals    TGP2011.bed.gz
+--null-snps        Lango2010.txt.gz
+--out              out
+--score            single
+--slop             10000
+--threads          4
+--null-snpsets     0
+--min-observations 100
+--max-iterations   10000000
+
+Sun Mar  2 14:46:10 2025 # Reading files ...
+Sun Mar  2 14:46:10 2025 # "Lango2010.txt.gz" has 56890 items.
+Sun Mar  2 14:46:34 2025 # "TGP2011.bed.gz" has 22518294 intervals.
+Sun Mar  2 14:46:34 2025 # "GeneAtlas2004.gct.gz" has 17581 rows, 79 columns.
+Sun Mar  2 14:46:34 2025 # Skipped loading 23556 gene intervals because they are absent from the --gene-matrix file.
+Sun Mar  2 14:46:34 2025 # 735 genes from the --gene-matrix file are absent from the --gene-intervals file.
+Sun Mar  2 14:46:34 2025 # done.
+Sun Mar  2 14:46:46 2025 # "My.gwas" has 5089 items.
+Sun Mar  2 14:46:46 2025 # Overlapping SNP intervals with gene intervals ...
+Sun Mar  2 14:46:46 2025 # rs10275717 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1046202 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10533472 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10551791 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10554511 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10558536 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10580496 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10589728 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10590914 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10606192 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10618434 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10630989 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10631032 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10638268 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10656204 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10690054 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10711156 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10715392 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10718356 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10967316 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10980102 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs10980103 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11035330 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11119572 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111306809 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111348888 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111489845 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111620181 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111629857 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs111956277 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112007991 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112075965 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112192029 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112244179 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11240707 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112440898 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112477954 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112545199 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112668782 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112683576 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112691995 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112731485 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11280966 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11281594 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11286145 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11286220 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs112886805 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11292952 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11298582 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11299844 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113049979 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11305286 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113055410 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11309282 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113109102 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113140882 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11315453 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11322857 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113270270 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113331703 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11333962 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113389800 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113454652 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113502001 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11359733 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11360944 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11362071 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11363605 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11369154 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113726794 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113754626 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11375609 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11375610 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113760231 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11388094 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113898055 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11390610 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11393702 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11396259 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs113970895 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11397859 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11407856 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs114110055 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11416538 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11428944 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11434979 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11449236 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs11457875 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1177722706 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs117880584 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs117962481 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs12064674 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs12741730 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs12858484 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs13098827 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs13295100 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1376607 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs137955918 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138046445 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138125469 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138238153 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138299154 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138314150 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138332587 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138508368 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138568666 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138617543 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138650733 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138725591 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138759422 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs138800017 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139297956 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139386345 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139397706 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139496974 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139708622 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139712232 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs139920694 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140105209 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140114580 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140174832 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140374669 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140424261 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140464826 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140504943 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140556515 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140677422 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140715516 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140724298 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140775247 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140809787 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140865322 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140879434 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs140901709 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs141249635 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs141513216 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs141567138 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs141659773 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs141894076 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142007022 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142144451 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142199307 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142229985 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142412165 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142495987 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142634039 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142820001 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142845864 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142864214 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs142887670 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143336718 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143418056 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143471566 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143506671 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143644554 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143653015 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143719341 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143774964 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143817745 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143912447 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs143983966 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144086232 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144177839 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144237973 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144287568 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144310973 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144364182 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144398908 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144472160 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144523755 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144643611 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144691951 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144725729 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144746870 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144788801 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs144901116 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145210279 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145265135 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145329595 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145332828 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145428972 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145491963 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145538833 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145711513 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145731181 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs145948548 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146052339 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146296348 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146390065 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146431291 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146445478 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146578050 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146605644 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146669811 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146702242 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146775052 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146825225 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146846015 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs146889435 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147034314 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147045433 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147138805 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147295266 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147313730 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147460766 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147460838 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147704959 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs147945293 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148287750 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148355448 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148489268 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148496693 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148566229 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148764110 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs148967922 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs149220667 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs149730961 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150039124 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150068831 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150196111 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150239114 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150402798 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs150699476 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs151033298 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs151041811 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs151047735 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs151212803 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs151252883 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1553373362 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1554033496 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1555215068 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1556513234 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs1556513236 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs155980 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs17189329 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199599466 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199627235 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199644591 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199689666 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199702473 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199702755 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199719018 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199772454 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199792401 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199800073 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199862260 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199904447 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199904956 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199923462 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199933543 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199955207 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199963335 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs199994006 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200026911 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200078958 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200135039 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200241124 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200248716 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200256334 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200268896 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200277208 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200308613 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200367819 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200390708 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200425752 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200458293 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200467134 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200477073 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200481589 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200482930 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200487179 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200543267 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200575291 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200602484 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200606721 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200618390 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200657921 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200751534 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200794933 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200875881 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200936312 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs200940101 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201011317 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201015707 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201028422 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201054879 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201197136 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201208624 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201251679 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201320820 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201381073 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201452124 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201489013 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201510813 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201557486 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201569939 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201871496 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201895108 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201948910 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201949871 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs201972330 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs202052997 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs202076578 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs202118576 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs202238204 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2075015 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2085564 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2337599 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2337600 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2367256 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs2785112 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs28364681 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs28365991 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs28538355 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs28822713 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs28986465 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3030167 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3034849 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3059144 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3059147 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3059456 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3061657 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3084537 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3086393 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3086960 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3094093 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3164 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3215764 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3215765 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3215984 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs33935619 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs33940536 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs33967457 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs33999730 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34001234 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34027127 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34031985 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34088612 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34251983 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34319076 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34337765 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34357091 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34415859 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34418446 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34431449 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34442960 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34491043 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34513390 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34532915 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34542762 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34578636 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34624417 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34729655 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34746260 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34785653 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34797663 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34841361 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34861606 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34882629 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34942505 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34978574 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs34980494 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35100518 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35122443 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35206781 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35211922 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35239019 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35253811 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35303652 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35336897 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35343988 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35344850 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35349220 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35379583 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35408906 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35511424 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35566825 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35651957 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35676745 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35714470 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35744206 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35866826 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35883742 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35976274 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs35984145 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs36104523 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs36198432 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs367720641 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs368442052 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs368562886 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs368632604 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs369108883 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs369975403 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs370106713 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs370210677 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs370265203 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs371096559 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs371356327 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs371925172 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs372170602 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs372245015 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs372382397 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs372441227 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs373423999 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs373493384 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs373624901 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs373910351 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374037277 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374157228 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374523586 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374659721 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374729729 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374787746 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs374890800 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs375224512 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs375461074 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs375466848 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs375571917 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs375902180 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs376269380 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs376586453 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs376744014 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs376873383 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs377166825 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs377725574 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3831340 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3840818 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs3841282 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs398113469 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4000298 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4043478 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4177 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4234024 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4863286 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs4896868 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs527421335 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs527835135 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs528126225 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs528592637 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs528754257 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs529128949 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs529234228 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs529577066 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs529588582 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs529802396 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs530399535 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs531109914 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs531790760 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532114724 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532148656 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532177625 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532492846 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532932327 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs532971482 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs533026207 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs533217665 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs533490239 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs533546276 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs534434634 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs535752576 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs536068499 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs536432757 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs537366103 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs537397892 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs537981740 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs538106386 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs539820019 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs540024931 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs540724782 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs540924205 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs540938672 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs541063203 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs541234900 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs541259428 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs542565316 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs542992993 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs543179029 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs543276527 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs544639534 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs545450548 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs545637926 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs546188676 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs546279210 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs547030913 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs547081588 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs547129572 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs549975877 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs550150522 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs550230166 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs550618694 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs550662500 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs550988271 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs551215220 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs551720372 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs552402527 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs553552 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs554143823 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs554216867 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs555254095 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs555598276 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs555842293 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs556267121 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs556300238 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs556589519 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55673182 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55726834 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55756024 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs557576640 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs557656385 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55776071 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55889058 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55902829 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs559340242 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55934860 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs559387752 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs559689971 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs55992309 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56006946 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs560423479 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs561109913 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs561170142 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56127405 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56141567 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs561435530 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs561438838 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs561834807 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56184254 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56193982 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56262277 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56265302 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs562675734 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs562730657 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs562787976 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs563570244 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs563930290 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs564331946 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs565119632 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs566714536 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56722705 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56730757 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56762681 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs567990704 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56822317 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56827399 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs56858269 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs568927961 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs569285834 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs570687948 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs570878610 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs571965699 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs572056234 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs573559974 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57432150 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57451000 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs574804155 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs574811052 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57630717 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs576526489 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs576657436 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57668860 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs577691355 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57793578 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs578023579 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs578156404 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57825054 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5790166 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5791417 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs57914636 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5795922 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5802482 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58031540 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5803391 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5810516 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5810517 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58117465 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5814401 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58166946 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5821825 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5827785 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58344693 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5835064 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5836559 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5837264 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5838167 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5838754 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58512046 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5851966 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5863579 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5863580 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5865302 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5865304 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58669710 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5868456 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5869468 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5871634 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5872830 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5876356 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5884197 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5886469 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5887796 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs5890066 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs58944461 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59195016 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59204626 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59356887 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59420398 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59426527 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59486867 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59496470 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59650561 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59688663 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59704089 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs59752228 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60031309 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60133227 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60273718 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60375082 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60698190 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60740184 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60768031 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60787642 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60789826 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60950185 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60966317 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60967695 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs60977170 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs61103299 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs61227267 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs61420341 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs61540982 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs61634405 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs62327462 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs62465765 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs66460812 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs66660686 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs66686653 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs667384 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs66938370 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs67466778 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs67570957 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs67580381 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs67779236 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs67905475 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs70992186 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71009303 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71046996 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71050932 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71082764 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71105201 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71146386 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71158962 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71206929 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71457390 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71480364 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71522696 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71542315 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71626923 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71651875 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71699872 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs7178480 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71786953 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71800606 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71812479 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71899030 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71939575 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71961991 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71974895 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs71992571 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs72005534 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs72411865 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs72486427 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs73025227 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs73670644 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs74299397 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs74569339 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs74674859 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs74783381 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs75101527 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs75449129 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs75496799 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs75500572 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs75694714 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs762577042 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs7654066 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs76562011 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs76849645 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs76945711 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs77169760 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs77263975 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs7757145 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs77862559 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs77979890 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78008896 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs782422477 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs782579304 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78429592 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78607672 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78687460 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78905038 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs78945478 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs79195726 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs79474338 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs79529515 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs79727546 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs79915291 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs842765 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs859899 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs9839269 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # rs9958441 not found in --snp-intervals file.
+Sun Mar  2 14:46:46 2025 # done. 709 SNPs not found. 1578 SNPs overlap 0 genes.
+Sun Mar  2 14:46:46 2025 # Merged 2772 SNPs into 247 loci.
+Sun Mar  2 14:46:46 2025 # Writing "out/snp_genes.txt" ...
+Sun Mar  2 14:46:46 2025 # done.
+Sun Mar  2 14:46:46 2025 # On each iteration, we will test 277 gene sets from these bins:
+Sun Mar  2 14:46:46 2025 # 149 gene sets with size     1 from a pool of size 22430
+Sun Mar  2 14:46:46 2025 #  40 gene sets with size     2 from a pool of size 4547
+Sun Mar  2 14:46:46 2025 #  27 gene sets with size     3 from a pool of size 2216
+Sun Mar  2 14:46:46 2025 #  19 gene sets with size     4 from a pool of size 1215
+Sun Mar  2 14:46:46 2025 #  12 gene sets with size     5 from a pool of size 836
+Sun Mar  2 14:46:46 2025 #   8 gene sets with size     6 from a pool of size 457
+Sun Mar  2 14:46:46 2025 #   4 gene sets with size     7 from a pool of size 333
+Sun Mar  2 14:46:46 2025 #   1 gene sets with size     8 from a pool of size 255
+Sun Mar  2 14:46:46 2025 #   3 gene sets with size     9 from a pool of size 193
+Sun Mar  2 14:46:46 2025 #  14 gene sets with size >= 10 from a pool of size 762
+Sun Mar  2 14:46:46 2025 # We will compute up to 1e+07 iterations for each column with 4 threads.
+Sun Mar  2 14:46:46 2025 # Writing "out/snp_condition_scores.txt" ...
+Sun Mar  2 14:46:46 2025 # done.
+Sun Mar  2 14:46:46 2025 # Computing one column at a time ...
+..... .....  ..... .....  ..... .....  ..... .....  ..... .....  50
+..... .....  ..... .....  ..... ....
+Sun Mar  2 14:47:05 2025 # done.

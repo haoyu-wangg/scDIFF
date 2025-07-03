@@ -258,10 +258,12 @@ Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.i
 - **Figure 7(B-H)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
 
 ### Figure 8
-- **Figure 8(A)**: Generated using `./drawFigures/Coverage_Plot.R`
-- **Figure 8(B)**: Generated using SNPsea software package
-- **Figure 8(C)(D)**: Generated using `./drawFigures/Signac.R`
-
+We used PrefrontalCortex as a reference to annotate NormalCortex, following `./dataPreprocessing/create_h5ad.ipynb`, `./dataPreprocessing/create_pairs.ipynb` and Tutorial 2: Cell annotations on datasets cross platforms, then extracted the NormalCortex portion from the resulting h5ad file for subsequent biological significance analysis.
+We first used `./drawFigures/Signac.R` to identify cell type-specific peaks. 
+- **Figure 8(A)**: Generated using `./drawFigures/Coverage_Plot.R`. Example figures can be found in `./drawFigures/Coverage_Plot`.
+- **Figure 8(B)**: Generated using SNPsea software package that we put it in `./drawFigures/SNPsea/SNPsea`. Example figures can be found in `./drawFigures/SNPsea/`.
+- **Figure 8(C)**: Generated using `./drawFigures/Upset.R`. Example figures can be found in `./drawFigures/UpSet`.
+- **Figure 8(D)**: Generated using `./drawFigures/Logo.R`. Example figures can be found in `./drawFigures/Motif_logo`.
 ---
 
 ## Supplementary Figures
@@ -276,4 +278,4 @@ Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.i
 
 ### Figure S6-S7
 - **Figure S6(A-D)**: Generated using `./drawFigures/Coverage_Plot.R`
-- **Figure S7(A-E)**: Generated using `./drawFigures/Signac.R`
+- **Figure S7(A-E)**: Generated using `./drawFigures/Logo.R`
