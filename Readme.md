@@ -1,9 +1,9 @@
 
 
-# scDIFF: Automatic cell type annotation using scATAC-seq data by incorporating bulk-level genomic and epigenomic information in diffusive transformers 
+# scDIFF: Automatic cell type annotation using scATAC-seq data by incorporating bulk-level genomic and epigenomic information in a deep diffusive transformer  
 
 ## Project Overview
-We proposed **scDIFF**, which integrates bulk-level genomic and epigenomic information in a diffusive transformer to annotate cell types from scATATC-seq data. The performance of scDIFF is comparable or better than state-of-the-art methods in all comparisons. Our scDIFF can eliminate batch effects between different datasets, which enabled it to integrate datasets from different sequencing platforms together. With optimized epigenomic profiles, scDIFF present superior annotation performances, indicating it has a great potential to facilitate analysis of scATAC-seq data. These results demonstrate that scDIFF provides both accurate cell type annotations and meaningful insights into the gene regulatory mechanisms at single cell level.
+We proposed scDIFF, which integrates bulk-level genomic and epigenomic information in a diffusive transformer to annotate cell types from scATATC-seq data. The performance of scDIFF is comparable or better than state-of-the-art methods in all comparisons. Our scDIFF can eliminate batch effects between different datasets, which enables it to integrate datasets from different sequencing platforms together. With optimized epigenomic profiles, scDIFF present superior annotation performances, indicating it has a great potential to facilitate analysis of scATAC-seq data. These results demonstrate that scDIFF provides both accurate cell type annotations and meaningful insights into the gene regulatory mechanisms at single cell level.
 
 
 
