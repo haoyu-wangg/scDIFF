@@ -257,15 +257,16 @@ Generated using `./drawFigures/Line_chart.ipynb`
 - **Figure 4(C)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
 
 ### Figure 5
-Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
+- **Figure 5(A)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
+- **Figure 5(B-F)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
 
 ### Figure 6
 - **Figure 6(A)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
-- **Figure 6(B-F)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
+- **Figure 6(B-H)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
 
 ### Figure 7
 - **Figure 7(A)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
-- **Figure 7(B-H)**: Generated using corresponding code in Visualization sections of Tutorial 1 and Tutorial 2
+- **Figure 7(B)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
 
 ### Figure 8
 We used PrefrontalCortex as a reference to annotate NormalCortex, following `./dataPreprocessing/create_h5ad.ipynb`, `./dataPreprocessing/create_pairs.ipynb` and Tutorial 2: Cell annotations on datasets cross platforms, then extracted the NormalCortex portion from the resulting h5ad file for subsequent biological significance analysis.
@@ -278,14 +279,17 @@ We first used `./drawFigures/Signac.R` to identify cell type-specific peaks.
 
 ## Supplementary Figures
 
-### Figure S1-S2
-**Figure S1(A-C), S2(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/comparison_plot.ipynb`
+### Figure S1-S3
+- **Figure S1(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/comparison_plot.ipynb`
+- **Figure S2**: Generated using `./drawFigures/draw_times.ipynb`
+- **Figure S3(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/comparison_plot.ipynb`
 
-### Figure S3-S5
-- **Figure S3(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
+### Figure S4-S7
 - **Figure S4(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
 - **Figure S5(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
+- **Figure S6(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
+- **Figure S7(A-C)**: Generated using `./drawFigures/evaluateCrossMethods.ipynb`; `./drawFigures/Bar.ipynb`
 
-### Figure S6-S7
-- **Figure S6(A-D)**: Generated using `./drawFigures/Coverage_Plot.R`
-- **Figure S7(A-E)**: Generated using `./drawFigures/Logo.R`
+### Figure S8-S9
+- **Figure S8(A-D)**: Generated using `./drawFigures/Coverage_Plot.R`
+- **Figure S9(A-E)**: Generated using `./drawFigures/Logo.R`
